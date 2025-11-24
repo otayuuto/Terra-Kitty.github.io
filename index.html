@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>保護猫団体 テラキティ | Terra Kitty</title>
+    <link href="https://fonts.googleapis.com/css2?family=Zen+Maru+Gothic:wght@400;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+    <link rel="stylesheet" href="style.css">
+    <script src="script.js" defer></script>
+</head>
+<body>
+
+    <header>
+        <a href="#" class="logo">
+            <i class="fas fa-paw"></i> テラキティ
+        </a>
+        <div class="hamburger" id="hamburger">
+            <span></span>
+            <span></span>
+            <span></span>
+        </div>
+        <ul class="nav-links" id="nav-links">
+            <li><a href="#about">私たちについて</a></li>
+            <li><a href="#cats">里親募集</a></li>
+            <li><a href="#support">支援する</a></li>
+            <li><a href="#adoption">里親になる</a></li>
+        </ul>
+    </header>
+
+    <div class="hero">
+        <div class="hero-content">
+            <h1>すべての猫に、<br>あたたかい居場所を。</h1>
+            <p>一匹でも多くの命を繋ぐために、<br>あなたの力を貸してください。</p>
+            <a href="#cats" class="btn-hero">猫たちに会う</a>
+        </div>
+    </div>
+
+    <section id="about">
+        <h2>テラキティについて</h2>
+        <p style="text-align: center; max-width: 700px; margin: 0 auto;">
+            テラキティは、行き場を失った猫たちを保護し、新しい家族へと繋ぐ活動を行っています。<br>
+            「テラ（大地・地球）」のように広く温かい心で、すべての猫が安心して眠れる未来を目指しています。
+        </p>
+    </section>
+
+    <section id="cats">
+        <h2>里親募集中の猫たち</h2>
+        <div class="cats-grid">
+            <div class="cat-card">
+                <img src="./images/test.jpg" alt="猫のミケ" class="cat-img">
+                <div class="cat-info">
+                    <span class="cat-tag">2ヶ月・オス</span>
+                    <h3 style="margin: 0.5rem 0;">はっちゃん</h3>
+                    <p style="font-size: 0.9rem;">少し人見知りですが、慣れると甘えん坊です。</p>
+                    <a href="cat-1.html" class="btn-detail">もっと詳しく見る</a>
+                </div>
+            </div>
+            <div class="cat-card">
+                <img src="https://images.unsplash.com/photo-1495360019602-e00192160353?ixlib=rb-1.2.1&auto=format&fit=crop&w=400&q=80" alt="猫のレオ" class="cat-img">
+                <div class="cat-info">
+                    <span class="cat-tag">1歳・オス</span>
+                    <h3 style="margin: 0.5rem 0;">レオくん</h3>
+                    <p style="font-size: 0.9rem;">遊び盛りで元気いっぱい！おもちゃが大好き。</p>
+                    <a href="cat-template.html" class="btn-detail">もっと詳しく見る</a>
+                </div>
+            </div>
+            <div class="cat-card">
+                <img src="https://images.unsplash.com/photo-1529778873920-4da4926a7071?ixlib=rb-1.2.1&auto=format&fit=crop&w=400&q=80" alt="猫のソラ" class="cat-img">
+                <div class="cat-info">
+                    <span class="cat-tag">5ヶ月・オス</span>
+                    <h3 style="margin: 0.5rem 0;">ソラくん</h3>
+                    <p style="font-size: 0.9rem;">兄弟と一緒に保護されました。好奇心旺盛です。</p>
+                    <a href="cat-template.html" class="btn-detail">もっと詳しく見る</a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="support">
+        <h2>ご支援のお願い</h2>
+        <div class="support-container">
+            <div class="support-box">
+                <div class="support-icon"><i class="fas fa-hand-holding-heart"></i></div>
+                <h3>活動資金の寄付</h3>
+                <p>医療費や施設の維持費として大切に使わせていただきます。</p>
+                <a href="#" class="btn-support btn-donate">クレジットカードで寄付</a>
+                <p style="margin-top:1rem; font-size:0.8rem;">※銀行振込先: 〇〇銀行 〇〇支店...</p>
+            </div>
+            <div class="support-box">
+                <div class="support-icon"><i class="fas fa-gift"></i></div>
+                <h3>物資でのご支援</h3>
+                <p>フードや猫砂など、日々の生活に必要な物資をご支援いただけます。</p>
+                <a href="https://www.amazon.co.jp/hz/wishlist/ls/YOUR_WISHLIST_ID" target="_blank" class="btn-support btn-amazon">
+                    <i class="fab fa-amazon"></i> 欲しいものリストを見る
+                </a>
+            </div>
+        </div>
+    </section>
+
+    <section id="adoption">
+        <div class="adoption-cta">
+            <h2>里親になるには</h2>
+            <p>里親をご希望の方は、以下のフォームよりお申し込みください。<br>
+            担当者より3日以内にご連絡させていただきます。</p>
+            <a href="https://docs.google.com/forms/d/e/YOUR_FORM_ID/viewform" target="_blank" class="btn-apply">
+                <i class="fas fa-envelope-open-text"></i> 里親申し込みフォームへ
+            </a>
+        </div>
+    </section>
+
+    <footer>
+        <div class="footer-links">
+            <a href="#"><i class="fab fa-instagram"></i></a>
+            <a href="#"><i class="fab fa-twitter"></i></a>
+            <a href="#"><i class="fab fa-facebook"></i></a>
+        </div>
+        <p>&copy; 2023 Terra Kitty. All Rights Reserved.</p>
+    </footer>
+
+</body>
+</html>
